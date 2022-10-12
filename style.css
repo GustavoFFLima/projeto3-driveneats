@@ -44,7 +44,7 @@ main {
 }
 .produtos {
     display: flex;
-    overflow-x: hidden;
+    overflow-x: scroll;
     height: 218px;
 }
 .itemSelecionar {
