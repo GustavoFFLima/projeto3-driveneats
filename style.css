@@ -73,10 +73,15 @@ main {
     margin: 4px 15px;   
 }
 .valorItem {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    margin-left: 15px;
+    margin: 0px 15px;
+}
+.valorItem ion-icon {
+    color: #45B72F;
 }
 .botao {
     width: 414px;
@@ -98,4 +103,14 @@ main {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
+}
+
+.check1 {
+    visibility: hidden;
+}
+.check2 {
+    border: solid 3px #45B72F;
+}
+.check3 {
+    background-color: #45B72F;
 }

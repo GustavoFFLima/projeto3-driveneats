@@ -17,7 +17,7 @@
             <p>Primeiro, seu prato</p>
         </div>
         <div class="produtos">
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="pexels-kei-photo-2741458.jpg" alt="">
                 </div>
@@ -29,9 +29,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 14,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="sopa.jpg" alt="">
                 </div>
@@ -43,9 +44,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 9,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="frangogrelhado.jpg" alt="">
                 </div>
@@ -57,9 +59,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 17,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="churrasco.jpg" alt="">
                 </div>
@@ -71,6 +74,7 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 27,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
         </div>
@@ -79,7 +83,7 @@
             <p>Agora, sua bebida</p>
         </div>
         <div class="produtos">
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="coca.jpg" alt="">
                 </div>
@@ -91,9 +95,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 4,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="caipirinha.jpg" alt="">
                 </div>
@@ -105,9 +110,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 15,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="crush.jpg" alt="">
                 </div>
@@ -119,9 +125,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 6,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="pepsi.jpg" alt="">
                 </div>
@@ -133,6 +140,7 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 4,50</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
         </div>
@@ -141,7 +149,7 @@
             <p>Por fim, sua sobremesa</p>
         </div>
         <div class="produtos">
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="pudim.jpg" alt="">
                 </div>
@@ -153,9 +161,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 7,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="brigadeiro.jpg" alt="">
                 </div>
@@ -167,9 +176,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 2,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="cupcake.jpg" alt="">
                 </div>
@@ -181,9 +191,10 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 9,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="itemSelecionar">
+            <div class="itemSelecionar" onclick="check(this)">
                 <div class="img">
                     <img src="tortaimao.jpg" alt="">
                 </div>
@@ -195,6 +206,7 @@
                 </div>
                 <div class="valorItem">
                     <p>R$ 12,90</p>
+                    <ion-icon class="check1" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
         </div>
@@ -205,5 +217,12 @@
             </button>
         </div>
     </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        function check(itemClicado) {
+            itemClicado.children[3].children[1].classList.toggle('check1');
+            itemClicado.classList.toggle('check2');
+        }
+    </script>
 </body>
 </html>
