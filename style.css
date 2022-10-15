@@ -18,6 +18,7 @@ header {
     background: #CF2B2B;
     color: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 header span {
     font-family: 'Righteous', cursive;

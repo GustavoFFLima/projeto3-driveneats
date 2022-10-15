@@ -220,6 +220,17 @@
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script>
         function check(itemClicado) {
+            // let pai = document.getElementById("paicasas");
+            // for(let i = 0; i < itemClicado.children.length; i++){
+            //     if(itemClicado.children[i] !== ) {
+            //         itemClicado.children[i].remove('check1');
+            //     }
+            // }
+            const botaoSel = document.querySelector('.check2');
+            if ( botaoSel !== null) {
+                botaoSel.classList.remove('check2');
+                botaoSel.children[3].children[1].classList.add('check1');
+            }
             itemClicado.children[3].children[1].classList.toggle('check1');
             itemClicado.classList.toggle('check2');
         }
