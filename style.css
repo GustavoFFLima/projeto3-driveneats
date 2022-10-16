@@ -93,7 +93,7 @@ main {
 .fecharcompra {
     width: 364px;
     height: 61px;
-    background-color: #CBCBCB;
+    background: #CBCBCB;
     border-radius: 50px;
     border: none;
     margin: 15px 30px;
@@ -112,6 +112,6 @@ main {
 .prato2, .bebida2, .sobremesa2 {
     border: solid 3px #45B72F;
 }
-.fecharcompra {
-    background-color: #45B72F;
+.comprafechada {
+    background: #45B72F;
 }
