@@ -106,12 +106,12 @@ main {
     font-size: 20px;
 }
 
-.check1 {
+.prato1, .bebida1, .sobremesa1 {
     visibility: hidden;
 }
-.check2 {
+.prato2, .bebida2, .sobremesa2 {
     border: solid 3px #45B72F;
 }
-.check3 {
+.fecharcompra {
     background-color: #45B72F;
 }
