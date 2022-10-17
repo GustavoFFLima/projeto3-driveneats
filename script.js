@@ -31,7 +31,7 @@ function sobremesa(itemClicado) {
     itemClicado.children[3].children[1].classList.toggle('sobremesa1');
     itemClicado.classList.toggle('sobremesa2');
     if (document.querySelector('.prato2') && document.querySelector('.bebida2') && document.querySelector('.sobremesa2')) {
-        document.querySelector('.botao').children[0].classList.add('comprafechada');
+        document.querySelector('.botao').children[0].classList.add('comprafechada'); 
     }
 }
 function continuar() {
